@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-1cy19b((=--+nny_m=+ed3h53z2g*m!t938=+14(u9kk%-t5p9
 DEBUG = True
 
 ALLOWED_HOSTS = ['myapi-siyb.onrender.com',
-                 '127.0.0.1:8000']
+                 '127.0.0.1',]
 
 
 # Application definition
