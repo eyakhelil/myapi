@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Task, Entity, FieldDefinition, IntegrationLog
 
-# Register your models here.
+admin.site.register(Task)
+admin.site.register(Entity)
+admin.site.register(FieldDefinition)
+admin.site.register(IntegrationLog)
